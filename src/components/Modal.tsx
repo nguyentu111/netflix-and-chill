@@ -10,7 +10,7 @@ import { useEffect, useState } from "react";
 import { FaPlay } from "react-icons/fa";
 import ReactPlayer from "react-player/lazy";
 import { useRecoilState, useRecoilValue } from "recoil";
-import { modalState, movieState } from "../atoms/modalAtom.";
+import { modalState, movieState } from "../atoms/modalAtom";
 import { Movie } from "../config/typings";
 import { Element, Genre } from "../config/typings";
 function Modal() {
